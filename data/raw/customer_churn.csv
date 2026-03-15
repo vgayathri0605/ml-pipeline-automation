@@ -1,0 +1,11 @@
+customer_id,age,monthly_bill,contract_type,support_calls,churn
+1,25,50,monthly,2,0
+2,45,80,yearly,1,0
+3,34,60,monthly,4,1
+4,29,70,monthly,3,1
+5,40,90,yearly,1,0
+6,31,55,monthly,5,1
+7,50,100,yearly,0,0
+8,27,65,monthly,4,1
+9,36,85,yearly,1,0
+10,30,75,monthly,3,1

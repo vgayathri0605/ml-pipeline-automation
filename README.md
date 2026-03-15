@@ -43,3 +43,22 @@ api/
 3. Lambda runs ML pipeline
 4. Model is trained and saved
 5. FastAPI serves predictions
+
+## System Architecture
+
+New Dataset
+      ↓
+Amazon S3
+      ↓
+S3 Event Trigger
+      ↓
+AWS Lambda
+      ↓
+ML Pipeline
+(ingest → preprocess → train)
+      ↓
+Trained Model
+      ↓
+FastAPI Prediction API
+      ↓
+Monitoring (CloudWatch)
